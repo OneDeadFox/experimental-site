@@ -1,0 +1,86 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #424b85;
+}
+
+header {
+    background-color: #165152;
+}
+
+    h1 {
+        float: left;
+        padding-top: 8px;
+        padding-left: 2px;
+    }
+/* nav-bar */
+    ul {
+        list-style: none;
+    }
+
+    header li {
+        color: wheat;
+        display: inline;
+        padding: 10px;
+    }
+/* tab-bar */
+    header div {
+        background-color: #30868a;
+        border-top: 8px solid black;
+        border-bottom: 4px solid black;
+        margin: 0px;
+    }
+
+    header div ul {
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    header div li {
+        padding: 20px;
+        padding-left: 2px;
+        color: wheat;
+    }
+
+a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+aside {
+    background-color: #165152;
+    width: 350px;
+}
+
+aside div {
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+
+main {
+
+}
+
+.spacing {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+}
+
+.tab-bar {
+    display: flex;
+    align-items: center;
+}
